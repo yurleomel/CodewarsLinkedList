@@ -12,9 +12,8 @@ def get_nth(node, index):
     while node:
         if index == i:
             return node
-        
+
         node = node.next
         i += 1
 
     raise Exception("Index out of range")
-  
